@@ -33,6 +33,6 @@
     ]
   },
   "devDependencies": {
-    "react-scripts": "^3.0.1"
+    "react-scripts": "^3.1.2"
   }
 }
