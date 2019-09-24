@@ -44,23 +44,30 @@ class Projects extends Component{
 
     render(){
         return (
-            <div className="category-tabs">
-                <Tabs activeTab={ this.state.activeTab } onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
-                    {/** Categories / Skills */}
-                    {/** Projects that you want to show by category */}
-                    <Tab>React</Tab>
-                    <Tab>Angular</Tab>
-                    <Tab>VueJS</Tab>
-                    <Tab>MongoDB</Tab>
-                </Tabs>
-                <Grid>
-                    <Cell col={12}>
-                        <div className="content">
-                            {this.toggleCategories()}
-                        </div>
-                    </Cell>
-                </Grid>
+            <div className="projects-comming-soon">
+                <img
+                    src="images/hourglass_loader.gif"
+                    style={{width: '20em', margin: '0px'}}
+                />
+                <h4 style={{margin: '0px'}}>Coming soon...</h4>
             </div>
+            // <div className="category-tabs">
+            //     <Tabs activeTab={ this.state.activeTab } onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
+            //         {/** Categories / Skills */}
+            //         {/** Projects that you want to show by category */}
+            //         <Tab>React</Tab>
+            //         <Tab>Angular</Tab>
+            //         <Tab>VueJS</Tab>
+            //         <Tab>MongoDB</Tab>
+            //     </Tabs>
+            //     <Grid>
+            //         <Cell col={12}>
+            //             <div className="content">
+            //                 {this.toggleCategories()}
+            //             </div>
+            //         </Cell>
+            //     </Grid>
+            // </div>
         )
     }
 }

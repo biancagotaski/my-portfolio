@@ -7,14 +7,15 @@ class Landing extends Component{
             <div style={{width: '100%', margin: 'auto'}}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <img src="https://pbs.twimg.com/profile_images/1128504038142689280/m0Bi_WOb_400x400.jpg"
-                        alt="avatar"
-                        className="avatar-img"></img>
-
+                        <img src="images/profile.jpg"
+                            alt="avatar"
+                            className="avatar-img"></img>
+                    </Cell>
+                    <Cell col={12}>
                         <div className="banner-text">
                             <h1>Software Engineer</h1>
                             <hr/>
-                            <p>JavaScript | VueJS | HTML/CSS | Software Architecture | C# Development</p>
+                            <p>JavaScript | VueJS | React | HTML/CSS | Software Architecture | C# Development</p>
 
                             <div className="social-links">
                                 {/** GitHub */}

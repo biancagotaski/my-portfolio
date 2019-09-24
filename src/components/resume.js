@@ -10,7 +10,7 @@ class Resume extends Component{
             <div>
                 <Grid>
                     {/** Left Side*/}
-                    <Cell col={4}>
+                    <Cell col={4} style={{marginTop: '0px'}}>
                         <div style={{textAlign: 'center'}}>
                             <img
                                 src="https://pbs.twimg.com/profile_images/1128504038142689280/m0Bi_WOb_400x400.jpg"
@@ -18,21 +18,15 @@ class Resume extends Component{
                                 style={{height: '200px'}}
                             />
                         </div>
-                        <h2 style={{paddingTop: '2em'}}>Bianca Gotaski</h2>
+                        <h2>Bianca Gotaski</h2>
                         <h4 style={{color: 'grey'}}>Programmer</h4>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and 
-                            typesetting industry. Lorem Ipsum has been the industry's
-                            standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it to make a
-                            type specimen book. It has survived not only five 
-                            centuries, but also the leap into electronic typesetting, 
-                            remaining essentially unchanged.
+                            These are my experience with some technologies. Since the
+                            college to where I start to work with. I love to build things and discover new technologies.
+                            I have a dream to help people with my job and make a difference in their life.
                         </p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-                        <h5>Phone</h5>
-                        <p>+55 21 96844-7916</p>
                         <h5>E-mail</h5>
                         <p>gotaskibianca@gmail.com</p>
                         <h5>Web</h5>
@@ -41,11 +35,11 @@ class Resume extends Component{
                     </Cell>
 
                     {/** Right Side*/}
-                    <Cell className="resume-right-col" col={8}>
+                    <Cell className="resume-right-col" col={8} style={{marginTop: '0px'}}>
                         <h2>Education</h2>
                         <Education
                             startYear={2016}
-                            endYear={"Present"}
+                            endYear={"ends in April 2020"}
                             schoolName={"Instituto Infnet"}
                             description={"*Explicar o que foi estudado durante o curso*"}
                         />
@@ -55,12 +49,18 @@ class Resume extends Component{
                             schoolName={"SENAI"}
                             description={"*Explicar o que foi estudado durante o curso*"}
                         />
-                        <hr style={{borderTop: '3px solid #e22947'}}/>
+                        <hr style={{borderTop: '3px solid #833fb2'}}/>
 
                         <h2>Experience</h2>
                         <Experience
-                            startYear={2018}
+                            startYear={2019}
                             endYear={"Present"}
+                            jobName={"IBM"}
+                            description={"Application's developer Junior"}
+                        />
+                        <Experience
+                            startYear={2018}
+                            endYear={2019}
                             jobName={"IBM"}
                             description={"Maintenance of the application and development to IBM Global Financial using agile methodology. Some of my activities:"}
                         />
@@ -71,7 +71,7 @@ class Resume extends Component{
                             description={"Development of projects using agile methodology. Some of my activities: •	Prototyped a new interactive table from AngularJS to React that has potential to improve overall performance and UX"}
                         />
 
-                        <hr style={{borderTop: '3px solid #e22947'}}/>
+                        <hr style={{borderTop: '3px solid #833fb2'}}/>
                         <h2>Skills</h2>
                         <Skills
                             skill="JavaScript"
@@ -103,7 +103,7 @@ class Resume extends Component{
                         />
                         <Skills
                             skill="MVC"
-                            progress={70}
+                            progress={90}
                         />
                         <Skills
                             skill="DB2"

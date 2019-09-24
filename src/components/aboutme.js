@@ -4,11 +4,10 @@ class About extends Component{
     render(){
         return (
             <div className="about-me">
-                <img
-                    src="https://cdn.dribbble.com/users/492711/screenshots/2528440/hourglass_loader.gif"
-                    style={{width: '250px'}}
-                />
-                <h4>Em breve...</h4>
+                <p>Since I was a child, I was curious about computing. I had my first computer
+                    with 14 years old and since then I search for how to programming and make the computer to things to me.
+                    
+                </p>
             </div>
         )
     }
